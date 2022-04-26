@@ -1,0 +1,122 @@
+/* 헤더 */
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 700px;
+}
+div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
+    margin-right: calc(100% / 12 - 20px);
+    min-width: 60px;
+}
+.nav_bar{
+    display: none;
+}
+/* 메인 */
+div.mainWrap>div.main{
+    margin: 0 auto;
+    height: 400px;
+}
+
+/* 컨텐츠 공통 */
+div.cntWrap{
+    margin-top: 80px;
+}
+div.cntWrap>div.content{
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* 컨텐츠1 */
+
+div.cntWrap>div.content.cnt01>div.header>h2{
+    font-size: 24px;
+}
+div.cntWrap>div.content.cnt01>div.section{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artLeft{
+    float: none;
+    width: calc(100% / 8 * 6);
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.texts{
+    margin-left: calc(100% / 8);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artRight{
+    float: none;
+    width: calc(100% / 8 * 6);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artRight>div.texts{
+    margin-left: calc(100% / 8);
+}
+
+/* 배너1 */
+
+div.bnrWrap>div.banner.bnr01>div.image>div.texts>h3{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+/* 컨텐츠2 */
+
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    background-image: url('./images/service/cnt02_pic01_tablet.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+}
+
+/* 컨텐츠3 */
+
+div.cntWrap>div.content.cnt03{
+    display: none;
+}
+
+/* 푸터 */
+
+div.ftrWrap{
+    margin-top: 80px;
+}
+div.ftrWrap>div.footer{
+    width: 90%;
+    max-width: 700px;
+}
+div.ftrWrap>div.footer>div.ftrLeft>h1{
+    font-size: 16px;
+    margin-left: 10px;
+}
+div.ftrWrap>div.footer>div.ftrMid>ul.menu>li{
+    font-size: 12px;
+    margin-right: 15px;
+}
+div.ftrWrap>div.footer>div.ftrMid>ul.menu>li::before{
+    height: 12px;
+    right: -9px;
+}
+div.ftrWrap>div.footer>div.ftrMid>ul.info{
+    font-size: 12px;
+    line-height: 20px;
+}
+div.ftrWrap>div.footer>div.ftrRight{
+    width: calc(100% / 8 * 2.6);
+    padding-top: 40px;
+    min-width: 222px;
+}
+div.ftrWrap>div.footer>div.ftrRight>div.sns{
+    margin: 0 10px;
+    line-height: 80px;
+}
+div.ftrWrap>div.footer>div.ftrMid{
+    width: calc(100% / 8 * 3.5);
+    padding-top: 40px;
+}
+div.ftrWrap>div.footer>div.ftrLeft{
+    width: calc(100% / 8 * 1.5);
+    padding: 80px 0;
+}
+div.ftrWrap>div.footer>div.ftrMid>ul.info>li:nth-child(3){
+    margin-left: 0;
+}
